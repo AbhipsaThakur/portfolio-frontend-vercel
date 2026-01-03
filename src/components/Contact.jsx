@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Linkedin, Github, Instagram, MessageCircle, Send } from 'lucide-react';
 import { personalInfo, socialLinks } from '../data/mock';
-import { useToast } from '../hooks/use-toast';
+import { useToast } from '../../src/hooks/use-toast';
 
 const Contact = () => {
   const { toast } = useToast();
